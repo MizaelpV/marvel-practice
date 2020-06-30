@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	background: #111;
+	text-align: center;
+	grid-column-start: 2;
+	padding: 100px;
+	position: relative;
+}
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 420px;
+	background: #fff;
+	overflow: hidden;
+}
+.container .square:hover {
+	border: 1px solid purple;
+}
+
+.square img {
+	width: 100%;
+}
